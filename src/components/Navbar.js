@@ -32,7 +32,7 @@ export default function Navbar(props) {
               }`}
               tmlfor="flexSwitchCheckDefault"
             >
-              Enable Dark Mode
+              Dark Mode
             </label>
           </div>
         </div>

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-
-
 export default function TextForm(props) {
   const handleUpClick = () => {
     // console.log("Uppercase was clicked" + text)
@@ -67,20 +65,20 @@ export default function TextForm(props) {
           ></textarea>
         </div>
         <div>
-          <button className="btn btn-success mx-2 my-1" onClick={handleUpClick}>
+          <button className="btn btn-dark mx-2 my-1" onClick={handleUpClick}>
             Convert to Upper Case
           </button>
-          <button className="btn btn-primary mx-2 my-1" onClick={handleLoClick}>
+          <button className="btn btn-dark mx-2 my-1" onClick={handleLoClick}>
             Convert to Lower Case
           </button>
-          <button className="btn btn-primary mx-2 my-1" onClick={handleCopy}>
+          <button className="btn btn-dark mx-2 my-1" onClick={handleCopy}>
             Copy Text
           </button>
-          <button className="btn btn-warning mx-2 my-1" onClick={handleReClick}>
+          <button className="btn btn-dark mx-2 my-1" onClick={handleReClick}>
             Trim line
           </button>
           <button
-            className="btn btn-warning mx-2 my-1"
+            className="btn btn-dark mx-2 my-1"
             onClick={handleExtraSpaces}
           >
             Remove Extra Spaces
